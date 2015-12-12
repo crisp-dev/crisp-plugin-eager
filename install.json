@@ -1,0 +1,19 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "plugin.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "websiteId": {
+        "title": "Website ID",
+        "description": "Your Crisp Website Id",
+        "type": "string"
+      }
+    }
+  }
+}
