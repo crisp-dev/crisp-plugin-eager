@@ -6,7 +6,7 @@
 		return;
 	}
 
-	CRISP_WEBSITE_ID = options.websiteId;
+	window.CRISP_WEBSITE_ID = options.websiteId;
 	d=document;
 	s=d.createElement("script");
 	s.src="https://client.crisp.im/l.js";
